@@ -10,3 +10,6 @@ c)QuickSight
 d)AWS Glue
 e)AWS Lambda
 f)AWS Athena
+
+**DATASET USED**
+https://www.kaggle.com/datasets/datasnaek/youtube-new
