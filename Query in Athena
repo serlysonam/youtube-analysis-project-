@@ -1,0 +1,5 @@
+-- shows the list of songs from a regeion (CA)
+
+SELECT a.title, a.category_id, b.snippet_title FROM "de-on-ytube-raw-new-database"."raw_statistics" a
+INNER JOIN "db_youtube_cleaned"."cleaned_statistics_reference_data" b ON a.category_id=cast(b.id as int)
+where a.region = 'ca';
